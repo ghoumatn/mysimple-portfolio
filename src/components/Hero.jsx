@@ -19,8 +19,8 @@ const Hero = () => {
         </div>
 
         {/* first col */}
-        <div className="pb-16 px-6 pt-5 max-w-[50%]" data-aos="fade-down">
-          <h2 className="flex justify-end">{hero.title}</h2>
+        <div className="pb-16 px-6 pt-5 w-full sm:w-1/2 sm:max-w-none custom-max-width" data-aos="fade-down">
+          <h2 className="flex justify-start">{hero.title}</h2>
           <br />
           <div className="text-xl">
             {hero.shortDescription}
