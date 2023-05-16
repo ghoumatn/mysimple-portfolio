@@ -4,8 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       Poppins: "Poppins",
-      Paprika: "Paprika",
-      Inria: "Inria Serif",
+      Roboto: "Roboto",
     },
     container: {
       center: true,

@@ -7,6 +7,9 @@ import ps from "./assets/images/Skills/ps.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
 import python from "./assets/images/Skills/python.png";
+import symfony from "./assets/images/Skills/symfony.svg";
+import prestashop from "./assets/images/Skills/prestashop.png";
+import git from "./assets/images/Skills/git.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -27,9 +30,12 @@ import Hireme_person2 from "./assets/images/Hireme/person2.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
-import { MdArrowForward, MdCall } from "react-icons/md";
-import { BsLinkedin, BsGithub } from "react-icons/bs";
-import { TbSmartHome } from "react-icons/tb";
+import { MdArrowForward, MdCall, MdDesignServices } from "react-icons/md";
+import { CgPerformance } from "react-icons/cg";
+import { BiDevices } from "react-icons/bi";
+import { HiServer } from "react-icons/hi";
+import { BsLinkedin, BsGithub, BsFillDatabaseFill } from "react-icons/bs";
+import { TbSmartHome, TbApi } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
@@ -48,10 +54,10 @@ export const content = {
       link: "#services",
       icon: RiServiceLine,
     },
-    {
-      link: "#projects",
-      icon: RiProjectorLine,
-    },
+    // {
+    //   link: "#projects",
+    //   icon: RiProjectorLine,
+    // },
     {
       link: "#contact",
       icon: MdOutlinePermContactCalendar,
@@ -92,22 +98,22 @@ export const content = {
       {
         name: "React js",
         para: "Open-source front-end JavaScript library",
-        logo: ps,
+        logo: reactjs,
       },
       {
         name: "Symfony",
         para: "Open-source PHP web application framework",
-        logo: reactjs,
+        logo: symfony,
       },
       {
         name: "Prestashop",
         para: "Open source e-commerce platform",
-        logo: sketch,
+        logo: prestashop,
       },
       {
         name: "Git",
         para: "Distributed version control system",
-        logo: python,
+        logo: git,
       },
     ],
     icon: MdArrowForward,
@@ -119,17 +125,17 @@ export const content = {
       {
         title: "Responsive Design",
         para: "I specialize in creating visually appealing websites that look great on any device. I use modern front-end technologies such as ReactJS and Bootstrap to create responsive, user-friendly designs that are optimized for speed and performance.",
-        logo: services_logo1,
+        logo: BiDevices,
       },
       {
         title: "UI/UX Design",
         para: "I believe that user experience is one of the most important aspects of web development. I create intuitive, user-friendly interfaces that are easy to navigate and provide a seamless experience for visitors.",
-        logo: services_logo2,
+        logo: MdDesignServices,
       },
       {
         title: "Performance Optimization",
         para: "I understand that website speed is a critical factor in user engagement and search engine rankings. I optimize websites for fast load times by minimizing file sizes, using caching techniques, and implementing other performance optimizations.",
-        logo: services_logo3,
+        logo: CgPerformance,
       },
     ],
   },
@@ -139,18 +145,18 @@ export const content = {
     service_content: [
       {
         title: "PHP Development",
-        para: "I have extensive experience working with PHP frameworks such as Symfony and Laravel. I use these frameworks to build secure, scalable web applications with complex functionality.",
-        logo: services_logo1,
+        para: "I have extensive experience working with PHP frameworks such as Symfony. I use these frameworks to build secure, scalable web applications with complex functionality.",
+        logo: HiServer,
       },
       {
         title: "Database Management",
         para: "I am proficient in database design and management, using technologies such as MySQL and PostgreSQL. I create efficient database schemas and implement optimized queries to ensure high performance and reliability.",
-        logo: services_logo2,
+        logo: BsFillDatabaseFill,
       },
       {
         title: "API Development",
         para: "I have experience developing RESTful APIs using frameworks such as Symfony and ExpressJS. I use best practices such as versioning, rate limiting, and authentication to create secure, scalable APIs.",
-        logo: services_logo3,
+        logo: TbApi,
       },
     ],
   },
@@ -216,6 +222,7 @@ export const content = {
     <p>Expertise in Symfony PHP, ReactJS, jQuery, and more</p>
     <p>High-quality work delivered on time and within budget</p>
     <p>A commitment to open communication and collaboration throughout the project lifecycle</p>
+    <p>&nbsp;</p>
     <h3 class="title">Get in Touch 🤝</h3>
     <p>If you're interested in discussing a full-time job opportunity or a web development project, please feel free to contact me at contact@ghoumamohamed.com. I'm happy to discuss your requirements and provide a detailed quote or discuss potential employment. Let's create something great together!</p>`,
     btnText: "Hire Me",

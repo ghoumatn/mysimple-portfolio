@@ -2,6 +2,7 @@ import { createElement, useRef } from "react";
 import { content } from "../Content";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
+import ReCAPTCHA from 'react-google-recaptcha';
 
 const Contact = () => {
   const { Contact } = content;
@@ -13,7 +14,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-      'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY'
+      'service_fivm8s9', 'template_5lbu4z9', form.current, '4nIYaCRhH2JwdklrG'
       )
       .then(
         (result) => {
@@ -60,7 +61,7 @@ const Contact = () => {
               type="email"
               name="user_email"
               pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
-              placeholder="Email Id"
+              placeholder="Email"
               required
               className="border border-slate-600 p-3 rounded"
             />
@@ -70,6 +71,9 @@ const Contact = () => {
               className="border border-slate-600 p-3 rounded h-44"
               required
             ></textarea>
+              <ReCAPTCHA
+                sitekey="6LdgQhAmAAAAAPvJ9bLLf_fwouLppFdcsUM4XZ27"
+              />
             <button
               className="btn self-start
             bg-white text-dark_primary hover:bg-sky-700 hover:text-white"

@@ -5,7 +5,7 @@ const Hireme = () => {
 
   return (
     <section className="bg-bg_light_primary">
-      <div className="md:container px-5 pt-14 mb-8">
+      <div className="md:container px-5 pt-14 ">
         <h2 className="title" data-aos="fade-down">
           {Hireme.title}
         </h2>
@@ -28,7 +28,7 @@ const Hireme = () => {
           />
           <div
             data-aos="fade-left"
-            className="border-2 border-dark_primary p-6 shadow-sm rounded-xl sm:min-w-[22rem]"
+            className="border-2 mb-4 border-dark_primary p-6 shadow-sm rounded-xl sm:min-w-[22rem]"
           >
             <div className="leading-7" dangerouslySetInnerHTML={{__html: Hireme.para}}></div>
             {/* <br />

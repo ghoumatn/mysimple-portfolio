@@ -1,9 +1,7 @@
-/* Inria serif */
-@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&display=swap");
 /* Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-/* Paprika */
-@import url("https://fonts.googleapis.com/css2?family=Paprika&display=swap");
+/* Roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -27,16 +25,16 @@
     @apply font-Poppins lg:text-6xl text-3xl font-extrabold;
   }
   h2 {
-    @apply font-Inria text-5xl font-bold;
+    @apply font-Roboto text-5xl font-bold;
   }
   h3 {
-    @apply font-Paprika text-5xl;
+    @apply font-Roboto text-5xl;
   }
   h4 {
-    @apply md:text-4xl text-3xl !leading-relaxed font-Paprika;
+    @apply md:text-4xl text-3xl !leading-relaxed font-Roboto;
   }
   h6 {
-    @apply font-Paprika font-bold text-[#253D57] leading-8;
+    @apply font-Roboto font-bold text-[#253D57] leading-8;
   }
 
   p {
@@ -54,7 +52,7 @@
 @layer utilities {
   .btn {
     @apply py-2 px-9 border-2 rounded-md
-     border-dark_primary rounded-br-3xl font-medium;
+     border-dark_primary font-medium;
   }
   .title {
     @apply md:text-3xl text-2xl;
