@@ -32,9 +32,9 @@ const Skills = () => {
         <h2 className="title" data-aos="fade-down">
           {skills.title}
         </h2>
-        <h4 className="subtitle" data-aos="fade-down">
+        <h3 className="subtitle" data-aos="fade-down">
           {skills.subtitle}
-        </h4>
+        </h3>
         <br />
         <div className="flex flex-wrap gap-4 justify-center">
           {skills.skills_content.map((skill, i) => (
@@ -49,8 +49,9 @@ const Skills = () => {
               <div>
                 <img
                   src={skill.logo}
-                  alt="..."
+                  alt="Tunisian Web developer"
                   className="w-10 group-hover:scale-125 duration-200"
+                  loading="lazy"
                 />
               </div>
               <div>

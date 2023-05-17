@@ -49,8 +49,9 @@ const Hero = () => {
           <img
             src={hero.image}
             data-aos="slide-up"
-            alt="..."
+            alt="Tunisian Web developer"
             className="h-full object-cover"
+            loading="lazy"
           />
         </div>
       </div>

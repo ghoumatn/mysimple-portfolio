@@ -45,22 +45,27 @@ export const content = {
     {
       link: "#home",
       icon: TbSmartHome,
+      arealabel: "home"
     },
     {
       link: "#skills",
       icon: BiUser,
+      arealabel: "my skills"
     },
     {
       link: "#services",
       icon: RiServiceLine,
+      arealabel: "my services"
     },
     // {
     //   link: "#projects",
     //   icon: RiProjectorLine,
+    //   arealabel: "home"
     // },
     {
       link: "#contact",
       icon: MdOutlinePermContactCalendar,
+      arealabel: "contact me"
     },
   ],
   hero: {

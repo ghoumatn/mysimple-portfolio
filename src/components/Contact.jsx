@@ -38,9 +38,9 @@ const Contact = () => {
         <h2 className="title !text-white" data-aos="fade-down">
           {Contact.title}
         </h2>
-        <h4 className="subtitle" data-aos="fade-down">
+        <h3 className="subtitle" data-aos="fade-down">
           {Contact.subtitle}
-        </h4>
+        </h3>
         <br />
         <div className="flex gap-10 md:flex-row flex-col">
           <form
@@ -89,7 +89,7 @@ const Contact = () => {
                 data-aos-delay={i * 430}
                 className="flex items-center gap-2"
               >
-                <h4 className="text-white">{createElement(content.icon)}</h4>
+                <h3 className="text-white">{createElement(content.icon)}</h3>
                 <a className="font-Poppins" href={content.link} target="_blank">
                   {content.text}
                 </a>

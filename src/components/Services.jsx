@@ -12,9 +12,9 @@ const Services = () => {
         <h2 className="title" data-aos="fade-down">
           {services.title}
         </h2>
-        <h4 className="subtitle" data-aos="fade-down">
+        <h3 className="subtitle" data-aos="fade-down">
           {services.subtitle}
-        </h4>
+        </h3>
         <br />
         <div className="flex gap-5 justify-between flex-wrap group">
           {services.service_content.map((content, i) => (
@@ -24,7 +24,7 @@ const Services = () => {
               data-aos-delay={i * 600}
               className="min-w-[14rem] duration-300 shadow rounded-xl text-center p-6 flex-1 "
             >
-              {/* <img src={content.logo} alt="..." className="mx-auto" /> */}
+              {/* <img src={content.logo} alt="Tunisian Web developer" className="mx-auto" loading="lazy" /> */}
               <h4 className="grid place-content-center">{createElement(content.logo)}</h4>
               <h6 className="my-3">{content.title}</h6>
               <p className="leading-7">{content.para}</p>
@@ -32,9 +32,9 @@ const Services = () => {
           ))}
         </div>
 
-        <h4 className="subtitle mt-12" data-aos="fade-down">
+        <h3 className="subtitle mt-12" data-aos="fade-down">
           {servicestow.subtitle}
-        </h4>
+        </h3>
         <br />
         <div className="flex gap-5 justify-between flex-wrap group">
           {servicestow.service_content.map((content, i) => (
@@ -44,7 +44,7 @@ const Services = () => {
               data-aos-delay={i * 600}
               className="min-w-[14rem] duration-300 shadow rounded-xl text-center p-6 flex-1 "
             >
-              {/* <img src={content.logo} alt="..." className="mx-auto" /> */}
+              {/* <img src={content.logo} alt="Tunisian Web developer" className="mx-auto" loading="lazy" /> */}
               <h4 className="grid place-content-center">{createElement(content.logo)}</h4>
               <h6 className="my-3">{content.title}</h6>
               <p className="leading-7">{content.para}</p>

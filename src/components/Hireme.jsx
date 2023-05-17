@@ -9,22 +9,24 @@ const Hireme = () => {
         <h2 className="title" data-aos="fade-down">
           {Hireme.title}
         </h2>
-        <h4 className="subtitle" data-aos="fade-down">
+        <h3 className="subtitle" data-aos="fade-down">
           {Hireme.subtitle}
-        </h4>
+        </h3>
         <br />
         <div className="flex items-center md:flex-row flex-col-reverse ">
           <img
             src={Hireme.image1}
-            alt="..."
+            alt="Tunisian Web developer"
             data-aos="fade-right"
             className="max-w-sm md:block hidden"
+            loading="lazy"
           />
           <img
             src={Hireme.image2}
             data-aos="fade-up"
-            alt="..."
+            alt="Tunisian Web developer"
             className="max-w-sm md:hidden"
+            loading="lazy"
           />
           <div
             data-aos="fade-left"

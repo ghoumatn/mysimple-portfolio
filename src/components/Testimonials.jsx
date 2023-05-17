@@ -18,9 +18,9 @@ const Testimonials = () => {
         <h2 className="title" data-aos="fade-down">
           {Testimonials.title}
         </h2>
-        <h4 className="subtitle" data-aos="fade-down">
+        <h3 className="subtitle" data-aos="fade-down">
           {Testimonials.subtitle}
-        </h4>
+        </h3>
         <br />
         <Swiper
           direction={"vertical"}
@@ -46,7 +46,7 @@ const Testimonials = () => {
                border-slate-200 md:flex-row flex-col
                 ${activeIndex !== i && "scale-75 blur-sm"}`}
               >
-                <img src={content.img} alt="..." className="h-24" />
+                <img src={content.img} alt="Tunisian Web developer" className="h-24" loading="lazy" />
                 <div>
                   <p className="sm:text-base text-sm">{content.review}</p>
                   <br />
