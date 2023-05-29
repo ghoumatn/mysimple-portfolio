@@ -50,6 +50,8 @@ const Skills = () => {
                 <img
                   src={skill.logo}
                   alt="Tunisian Web developer"
+                  width={40}
+                  height={40}
                   className="w-10 group-hover:scale-125 duration-200"
                   loading="lazy"
                 />

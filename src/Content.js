@@ -1,6 +1,7 @@
 // import images
 import Hero_person from "./assets/images/Hero/person.png";
 
+import php from "./assets/images/Skills/php.svg";
 import figma from "./assets/images/Skills/figma.png";
 import sketch from "./assets/images/Skills/sketch.png";
 import ps from "./assets/images/Skills/ps.png";
@@ -93,7 +94,7 @@ export const content = {
       {
         name: "PHP",
         para: "Hypertext Preprocessor",
-        logo: figma,
+        logo: php,
       },
       {
         name: "Node js",
