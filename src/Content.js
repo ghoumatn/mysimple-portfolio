@@ -1,7 +1,7 @@
 // import images
 import Hero_person from "./assets/images/Hero/person.png";
 
-import php from "./assets/images/Skills/php.svg";
+import php from "./assets/images/Skills/PHP.svg";
 import figma from "./assets/images/Skills/figma.png";
 import sketch from "./assets/images/Skills/sketch.png";
 import ps from "./assets/images/Skills/ps.png";
