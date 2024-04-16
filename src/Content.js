@@ -1,5 +1,5 @@
 // import images
-import Hero_person from "./assets/images/Hero/person.png";
+import Hero_person from "./assets/images/Hero/ghouma-mohamed-developper-web.png";
 
 import php from "./assets/images/Skills/PHP.svg";
 import figma from "./assets/images/Skills/figma.png";
@@ -262,6 +262,6 @@ export const content = {
     ],
   },
   Footer: {
-    text: "Created with ❤️ 2023",
+    text: "Created with ❤️ " + (new Date().getFullYear()	),
   },
 };
