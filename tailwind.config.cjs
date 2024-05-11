@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       Poppins: "Poppins",
-      Roboto: "Roboto",
+      // Roboto: "Roboto",
     },
     container: {
       center: true,

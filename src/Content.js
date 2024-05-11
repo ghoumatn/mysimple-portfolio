@@ -26,8 +26,8 @@ import avatar2 from "./assets/images/Testimonials/avatar2.png";
 import avatar3 from "./assets/images/Testimonials/avatar3.png";
 import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
-import Hireme_person from "./assets/images/Hireme/person.png";
-import Hireme_person2 from "./assets/images/Hireme/person2.png";
+import Hireme_person from "./assets/images/Hireme/ghouma-mohamed.png";
+import Hireme_person2 from "./assets/images/Hireme/ghouma-mohamed.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
@@ -77,7 +77,8 @@ export const content = {
     image: Hero_person,
     shortDescription: "Hello and welcome to my portfolio! I'm Ghouma Mohamed, a Full Stack Web Developer based in Sousse, Tunisia. With a passion for creating engaging and intuitive user experiences, I specialize in technologies such as PHP, Symfony, React, and more. Whether you're looking to build a dynamic web application, optimize an existing site, or simply chat about all things web development, I'd love to connect and discuss how I can help bring your ideas to life.",
     downloadText: "Download & fetch My CV 👇",
-    downloadBtn: "📄 Download My CV (In French)",
+    downloadBtn: "📄 Download My CV",
+    downloadBtnFr: "📄 Download My CV (In French)",
     hero_content: [
       {
         count: "7+",
