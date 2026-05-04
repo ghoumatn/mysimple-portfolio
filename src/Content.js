@@ -81,7 +81,7 @@ export const content = {
     downloadBtnFr: "📄 Download My CV (In French)",
     hero_content: [
       {
-        count: "7+",
+        count: "9+",
         text: "Years of Experinse in Web development",
       },
       {
